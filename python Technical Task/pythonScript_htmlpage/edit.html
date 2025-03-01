@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Employee</title>
+</head>
+<body>
+    <h2>Edit Employee</h2>
+    <form action="/edit/{{ employee['id'] }}" method="post">
+        <input type="text" name="name" value="{{ employee['name'] }}" required>
+        <input type="number" name="age" value="{{ employee['age'] }}" required>
+        <input type="text" name="city" value="{{ employee['city'] }}" required>
+        <input type="email" name="email" value="{{ employee['email'] }}" required>
+        <input type="number" name="salary" value="{{ employee['salary'] }}" required>
+        <button type="submit">Update</button>
+    </form>
+    <a href="/">Back</a>
+</body>
+</html>

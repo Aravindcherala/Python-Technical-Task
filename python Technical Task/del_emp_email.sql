@@ -1,0 +1,1 @@
+delete from employees where email = 'john@example.com';

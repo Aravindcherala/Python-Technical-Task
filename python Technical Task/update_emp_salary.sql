@@ -1,0 +1,1 @@
+update employees set salary = 55000 where name = 'John Doe';

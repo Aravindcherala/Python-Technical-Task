@@ -1,0 +1,25 @@
+1. Install Required Dependencies
+
+
+2. Set Up MySQL Database and Table
+
+
+3. Create the Flask Application (pyscript.py)
+
+
+4. Create HTML Templates (templates folder)
+
+
+5. Create index.html (Employee List and Add Form)
+
+
+6. Create edit.html (Edit Employee Form)
+
+
+7. Run the Flask Application
+
+
+8. Open in Browser and Test CRUD Operations
+
+
+9. Stop the Server
